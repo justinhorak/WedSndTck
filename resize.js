@@ -1,4 +1,3 @@
-<script>
 const source = document.getElementById('source');
 
 const inputHandler = function(e) {
@@ -34,4 +33,3 @@ source.addEventListener('input', inputHandler);
 source.addEventListener('propertychange', inputHandler); // for IE8
 // Firefox/Edge18-/IE9+ don’t fire on <select><option>
 // source.addEventListener('change', inputHandler); 
-</script>
